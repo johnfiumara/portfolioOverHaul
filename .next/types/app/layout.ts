@@ -1,4 +1,4 @@
-// File: /workspaces/portfolioOverHaul/app/layout.tsx
+// File: C:\Users\test\OneDrive\Documents\GitHub\portfolioOverHaul\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

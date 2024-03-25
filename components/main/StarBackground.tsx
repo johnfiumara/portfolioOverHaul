@@ -1,11 +1,11 @@
 'use client'
 
-import React ,{ useState, useRef, Suspense }from 'react'
+import React from 'react'
 import {Canvas,useFrame} from '@react-three/fiber'
 import { Points, PointMaterial, Preload } from '@react-three/drei'
 //@ts-ignore
 import * as random from "maath/random/dist/maath-random.esm"
-
+import { useState, useRef, Suspense } from 'react'
 
 const StarBackground = (props: any) => {
     const ref : any = useRef();
@@ -44,10 +44,10 @@ const StarsCanvas = ()  =>(
             <Suspense fallback={null}>
                 <StarBackground/>
             </Suspense>
+
         </Canvas>
 
     </div>
 
 )
-export default StarsCanvas
-
+export default StarsCanvas;
